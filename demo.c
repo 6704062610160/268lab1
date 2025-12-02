@@ -10,11 +10,11 @@ int main(){
 	f = 15;
 	
 
-	printf("Mid=%10.0f\n",a);
-	printf("Final=%10.0f\n",b);
-	printf("Q1=%10.0f\n",c);
-	printf("Q2=%10.0f\n",d);
-	printf("lab=%10.0f\n",e);
-	printf("sit=%10.0f\n",f);
+	printf("%10s%10.0f\n","Mid=",a);
+	printf("%10s%10.0f\n","Final=",b);
+	printf("%10s%10.0f\n","Q1=",c);
+	printf("%10s%10.0f\n","Q2=",d);
+	printf("%10s%10.0f\n","lab=",e);
+	printf("%10s%10.0f\n","sit=",f);
 	
 }
